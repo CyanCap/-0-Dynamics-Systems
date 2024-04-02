@@ -72,6 +72,7 @@ While the multiplicative inverse is not so obvious, and not defined when $z=0$.
 **Remark:** if $z_1z_2 = 0$, so at least one of them is zero.
 And subtraction (减法) and division (除法) are defined in terms of additive and multiplicative inverses.
 Especially,
+
 $$
 \frac{z_1}{z_2} = \frac{(x_1+iy_1)(x_2-iy_2)}{(x_2+iy_2)(x_2-iy_2)}.
 $$
