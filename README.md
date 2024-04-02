@@ -6,6 +6,4 @@
 
 动力系统所用书籍：Introduction to the Modern Theory of Dynamical Systems, Anatole Katok.
 
-![1712038665274](image/README/1712038665274.png#pic_center =x200)
-
 Coming soon.
