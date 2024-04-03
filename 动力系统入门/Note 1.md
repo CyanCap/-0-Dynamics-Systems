@@ -13,20 +13,26 @@ Some principles defined in the book are the following:
 In this note, time-evolution law will not change along the time. So any state will be determined by the initial position and the length of the evolution i.e. state will be represented by $F(x,t)$.
 
 Fixing $t$, transformation
+
 $$
 \varphi^t:x\mapsto F(x,t)
 $$
+
 maps to phase space itself.
-We have 
+We have
+
 $$
 F(x,t+s) = F(\varphi^t(x),s),\quad or\quad \varphi^{s+t}(x) = \varphi^s\left(\varphi^t(x)\right).
 $$
+
 Check that transformations $\varphi^t$ form a semi-group which maybe has no inverse for noninverible system.
-While for a invertible discrete system each $\varphi^t$ has inverse and forms a cyclic group 
+While for a invertible discrete system each $\varphi^t$ has inverse and forms a cyclic group
+
 $$
 \left\{ F^n = (\varphi^1)^n \; | \; n \in \mathbb{Z}\right\}.
 $$
-And invertible continuous system determines a group $\left\{\varphi^t\right\}_{t\in\mathbb{R}}$.
+
+And invertible continuous system determines a group $\{\varphi^t\}_{t\in\mathbb{R}}$.
 
 # Flows and Vector Fields
 
@@ -43,19 +49,21 @@ $U$ is the coordinate neighborhood.
 Take every tangent vector at point $x$.
 Then every $x$ maps to this tangent vector could form a vector field or tangent bundle.
 m real-valued functions $(v_i)$ are determined as a map from $U$ to $\mathbb{R}$.
-Every vector field locally is represented as 
+Every vector field locally is represented as
+
 $$
 \sum^m_{i=1}v_i(s_1,\dots,s_n)\frac{\partial}{\partial s_i}.
 $$
+
 Then the evolution is obtained by solving ODE:
+
 $$
 \frac{d s_i}{d t} = v_i(s_1,\dots,s_m),
 $$
-with initial conditions $s_i(0)=s_i^0$ for the initial point $x$.
 
+with initial conditions $s_i(0)=s_i^0$ for the initial point $x$.
 
 That promise that we can work for any transformation $\varphi^t$.
 If the solutions exist for the previous equation for all time $t$, then we call the vector field is complete.
 
 We define a flow as a one-parameter group of diffeomorphisms of $M$ to be $\varphi^t$.
-
