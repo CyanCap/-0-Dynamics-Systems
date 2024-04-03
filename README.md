@@ -6,4 +6,10 @@
 
 动力系统所用书籍：Introduction to the Modern Theory of Dynamical Systems, Anatole Katok.
 
-Coming soon.
+
+
+2024.4.3
+
+惊讶发现GitHub上的数学公式显示部分不尽人意，易缺反斜杠“\”，见[Sec. 6.1](https://github.github.com/gfm/#backslash-escapes)。
+
+Updating
