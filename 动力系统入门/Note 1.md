@@ -22,14 +22,14 @@ maps to phase space itself.
 We have
 
 $$
-F(x,t+s) = F(\varphi^t(x),s),\quad or\quad \varphi^{s+t}(x) = \varphi^s\left\(\varphi^t(x) \right\).
+F(x,t+s) = F(\varphi^t(x),s),\quad or\quad \varphi^{s+t}(x) = \varphi^s\left(\varphi^t(x) \right).
 $$
 
 Check that transformations $\varphi^t$ form a semi-group which maybe has no inverse for noninverible system.
 While for a invertible discrete system each $\varphi^t$ has inverse and forms a cyclic group
 
 $$
-\left\{ F^n = \(\varphi^1\)^n \; | \; n \in \mathbb{Z}\right\}.
+\left\{ F^n = (\varphi^1)^n \; | \; n \in \mathbb{Z}\right\}.
 $$
 
 And invertible continuous system determines a group $\{\varphi^t\}_{t\in\mathbb{R}}$.
