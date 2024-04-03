@@ -29,7 +29,7 @@ Check that transformations $\varphi^t$ form a semi-group which maybe has no inve
 While for a invertible discrete system each $\varphi^t$ has inverse and forms a cyclic group
 
 $$
-\left\{ F^n = (\varphi^1)^n \; | \; n \in \mathbb{Z}\right\}.
+\{ F^n = (\varphi^1)^n \; | \; n \in \mathbb{Z}\}.
 $$
 
 And invertible continuous system determines a group $\{\varphi^t\}_{t\in\mathbb{R}}$.
@@ -66,4 +66,4 @@ with initial conditions $s_i(0)=s_i^0$ for the initial point $x$.
 That promise that we can work for any transformation $\varphi^t$.
 If the solutions exist for the previous equation for all time $t$, then we call the vector field is complete.
 
-We define a flow as a one-parameter group of diffeomorphisms of $M$ to be $\varphi^t$.
+We define a flow as a one-parameter group of diffeomorphisms of $M$ to be $\{\varphi^t\}$.
