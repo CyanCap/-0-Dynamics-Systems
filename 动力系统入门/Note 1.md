@@ -32,3 +32,30 @@ And invertible continuous system determines a group $\left\{\varphi^t\right\}_{t
 
 Very exciting definitions and results (maybe only to me) of the foundations.
 
+In some degrees, if time is discrete the dynamical systme will be more easier to be decribes.
+This may be simply because we count time (1s, 2s,$\cdots$) and it is intuitive.
+Now assume a smooth m-dimensional manifold $M$. We fix a initial state $x\in M$ and vary $t$ then get a parameterized smooth curve on $M$.
+
+But here comes a problem, we cannot consider global properties of a manifold at once.
+So we should work in different local charts (coordinate) $(s_i^{t_1+t_2})\in U$ for time $t_1,t_2$ to be small enough.
+$U$ is the coordinate neighborhood.
+
+Take every tangent vector at point $x$.
+Then every $x$ maps to this tangent vector could form a vector field or tangent bundle.
+m real-valued functions $(v_i)$ are determined as a map from $U$ to $\mathbb{R}$.
+Every vector field locally is represented as 
+$$
+\sum^m_{i=1}v_i(s_1,\dots,s_n)\frac{\partial}{\partial s_i}.
+$$
+Then the evolution is obtained by solving ODE:
+$$
+\frac{d s_i}{d t} = v_i(s_1,\dots,s_m),
+$$
+with initial conditions $s_i(0)=s_i^0$ for the initial point $x$.
+
+
+That promise that we can work for any transformation $\varphi^t$.
+If the solutions exist for the previous equation for all time $t$, then we call the vector field is complete.
+
+We define a flow as a one-parameter group of diffeomorphisms of $M$ to be $\varphi^t$.
+
