@@ -9,8 +9,7 @@ $$
 
 corresponds to the point or vector $(x_1+x_2,y_1+y_2)$.
 
-![1](image/Note2/1712545253304.png =x150)
-
+![1](https://github.com/CyanCap/Learning_from_scratch_Dynamics_Systems/blob/main/%E5%A4%8D%E5%88%86%E6%9E%90/image/Note2/1712545253304.png?raw=true =x150)
 
 Let's define the *modulus*.
 
